@@ -1,0 +1,15 @@
+Name: xorg-x11-proto-compositeproto
+Summary: X.Org X11 Protocol compositeproto
+Description: This package contains header files and documentation for the composite extension. 
+Version: 0.4.2
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/compositeproto-%{version}.tar.bz2
+
+Provides: 
+    - compositeproto
+ConfigOptions:
+    - --libdir=%{_datadir}
